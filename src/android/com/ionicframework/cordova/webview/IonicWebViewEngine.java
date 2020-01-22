@@ -30,7 +30,7 @@ import org.apache.cordova.engine.SystemWebViewEngine;
 
 import java.lang.reflect.Field;
 
-public class MyWebViewEngine extends IonicWebViewEngine {
+public class IonicWebViewEngine extends SystemWebViewEngine {
 
     public static final String TAG = "IonicWebViewEngine";
 
